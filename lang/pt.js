@@ -1284,4 +1284,15 @@ export default {
 
     adult_content_confirm: 'Tenho 18 anos ou mais',
     adult_content_deny: 'Tenho menos de 18 anos',
+
+    inner_player_disclaimer_title: 'Aviso do player',
+    inner_player_disclaimer_text: 'Entendo que estou iniciando um player com suporte incompleto e entendo que isso pode causar comportamento atípico no dispositivo. O ideal é mudar para players da família tvOS ou outras alternativas.',
+
+    inner_player_disclaimer_change_player: 'Mudar player',
+    remote_configuration_settings_title: 'Configuração Remota',
+    remote_configuration_registration_text: 'A configuração remota fornece acesso temporário ao seu aplicativo, outro aplicativo poderá instalar extensões e configurar parâmetros.',
+    remote_configuration_waite_text: 'Agora você pode passar este código para outro aplicativo para conceder acesso às configurações.',
+    remote_configuration_open_button: 'Abrir Acesso',
+    remote_configuration_code_life: 'O código é válido',
+    remote_configuration_notice_nocode: 'Falha ao abrir o acesso'
 }
