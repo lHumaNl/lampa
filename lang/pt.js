@@ -152,7 +152,7 @@ export default {
 	settings_player_type: 'Tipo player',
     settings_player_type_descr: 'Qual o player a utilizar',
     settings_infuse_launch_mode: 'Iniciar no Infuse',
-    settings_infuse_launch_mode_descr: 'O que fazer ao abrir vídeo no Infuse. Torrent: Guardar e reproduzir apenas adiciona à biblioteca',
+    settings_infuse_launch_mode_descr: 'O que fazer ao abrir vídeo no Infuse. Torrents sempre reproduzem imediatamente',
     settings_infuse_launch_ask: 'Perguntar ao iniciar',
     settings_infuse_launch_play: 'Reproduzir',
     settings_infuse_launch_save_and_play: 'Guardar e reproduzir',
@@ -1239,6 +1239,11 @@ export default {
     player_segments_value_auto: 'Pular automaticamente',
     player_segments_value_user: 'Personalizado',
     player_segments_skiped: 'Segmento pulado',
+    player_segments_skip_now: 'Pular',
+    player_segments_skip_in: 'Pular em',
+    player_segments_skip_intro: 'Pular abertura',
+    player_segments_next: 'Próximo episódio',
+    player_segments_next_in: 'Próximo episódio em',
     subscribe_info: 'Na seção "Assinaturas", você verá todas as suas assinaturas de tradução. Você receberá uma notificação quando um novo episódio com sua tradução selecionada for lançado.',
     no_watch_history: 'Sem histórico de navegação',
 
@@ -1299,5 +1304,8 @@ export default {
     remote_configuration_waite_text: 'Agora você pode passar este código para outro aplicativo para conceder acesso às configurações.',
     remote_configuration_open_button: 'Abrir Acesso',
     remote_configuration_code_life: 'O código é válido',
-    remote_configuration_notice_nocode: 'Falha ao abrir o acesso'
+    remote_configuration_notice_nocode: 'Falha ao abrir o acesso',
+
+    settings_server_gts: 'Transcodificação',
+    settings_server_gts_descr: 'Converter automaticamente o vídeo para um formato compatível quando necessário.'
 }

@@ -186,7 +186,7 @@ export default {
     settings_player_type: "Typ přehrávače",
     settings_player_type_descr: "Jakým přehrávačem přehrávat video",
     settings_infuse_launch_mode: "Spuštění v Infuse",
-    settings_infuse_launch_mode_descr: "Co dělat při otevření videa v Infuse. Torrent: Uložit a přehrát pouze přidá do knihovny",
+    settings_infuse_launch_mode_descr: "Co dělat při otevření videa v Infuse. U torrentů vždy okamžité přehrání",
     settings_infuse_launch_ask: "Zeptat se při spuštění",
     settings_infuse_launch_play: "Přehrát",
     settings_infuse_launch_save_and_play: "Uložit a přehrát",
@@ -1265,6 +1265,11 @@ export default {
     player_segments_value_auto: 'Automaticky přeskočit',
     player_segments_value_user: 'Vlastní',
     player_segments_skiped: 'Segment přeskočen',
+    player_segments_skip_now: 'Přeskočit',
+    player_segments_skip_in: 'Přeskočit za',
+    player_segments_skip_intro: 'Přeskočit úvod',
+    player_segments_next: 'Další epizoda',
+    player_segments_next_in: 'Další epizoda za',
     subscribe_info: 'V sekci „Odběry“ uvidíte všechny své odběry překladů. Dostanete upozornění, až vyjde nová epizoda s vaším vybraným překladem.',
     no_watch_history: 'Žádná historie prohlížení',
     settings_request_caching_use: 'Povolit ukládání do mezipaměti',
@@ -1324,5 +1329,8 @@ export default {
     remote_configuration_waite_text: 'Nyní můžete předat tento kód jiné aplikaci, abyste jí udělili přístup k nastavení.',
     remote_configuration_open_button: 'Otevřít přístup',
     remote_configuration_code_life: 'Kód je platný',
-    remote_configuration_notice_nocode: 'Nepodařilo se otevřít přístup'
+    remote_configuration_notice_nocode: 'Nepodařilo se otevřít přístup',
+
+    settings_server_gts: 'Překódování',
+    settings_server_gts_descr: 'Automaticky převést video do kompatibilního formátu v případě potřeby.'
 };

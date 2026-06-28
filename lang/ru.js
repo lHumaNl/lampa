@@ -189,7 +189,7 @@ export default {
     settings_player_type: 'Тип плеера',
     settings_player_type_descr: 'Каким плеером воспроизводить видео',
     settings_infuse_launch_mode: 'Запуск в Infuse',
-    settings_infuse_launch_mode_descr: 'Что делать при открытии видео в Infuse. Торрент: «Сохранить и играть» — только в библиотеку',
+    settings_infuse_launch_mode_descr: 'Что делать при открытии видео в Infuse. Для торрентов всегда сразу воспроизведение',
     settings_infuse_launch_ask: 'Спрашивать при запуске',
     settings_infuse_launch_play: 'Играть',
     settings_infuse_launch_save_and_play: 'Сохранить и играть',
@@ -253,6 +253,9 @@ export default {
     settings_server_login: 'Логин',
     settings_server_password: 'Пароль',
     settings_server_not_specified: 'Не указан',
+
+    settings_server_gts: 'Транскодирование',
+    settings_server_gts_descr: 'Автоматически преобразовывать видео в совместимый формат при необходимости.',
 
     settings_webos_launcher: 'Запуск приложения',
     settings_webos_launcher_add_device: 'Установить как стартовое',
@@ -987,6 +990,11 @@ export default {
     player_segments_value_auto: 'Автопропуск',
     player_segments_value_user: 'Пользовательский',
     player_segments_skiped: 'Cегмент пропущен',
+    player_segments_skip_now: 'Пропустить',
+    player_segments_skip_in: 'Пропуск через',
+    player_segments_skip_intro: 'Пропустить заставку',
+    player_segments_next: 'Следующая серия',
+    player_segments_next_in: 'Следующая серия через',
 
     broadcast_open: 'Открыть карточку на другом устройстве',
     broadcast_play: 'Выберите устройство для просмотра',

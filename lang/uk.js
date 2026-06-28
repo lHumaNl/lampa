@@ -144,7 +144,7 @@ export default {
     settings_player_type: 'Тип плеєра',
     settings_player_type_descr: 'Яким плеєром відтворювати',
     settings_infuse_launch_mode: 'Запуск в Infuse',
-    settings_infuse_launch_mode_descr: 'Що робити при відкритті відео в Infuse. Торрент: «Зберегти і грати» — лише в бібліотеку',
+    settings_infuse_launch_mode_descr: 'Що робити при відкритті відео в Infuse. Для торрентів завжди одразу відтворення',
     settings_infuse_launch_ask: 'Питати при запуску',
     settings_infuse_launch_play: 'Грати',
     settings_infuse_launch_save_and_play: 'Зберегти і грати',
@@ -1229,6 +1229,11 @@ export default {
     player_segments_value_auto: 'Автоматично пропускати',
     player_segments_value_user: 'Користувацький',
     player_segments_skiped: 'Сегмент пропущено',
+    player_segments_skip_now: 'Пропустити',
+    player_segments_skip_in: 'Пропуск через',
+    player_segments_skip_intro: 'Пропустити заставку',
+    player_segments_next: 'Наступна серія',
+    player_segments_next_in: 'Наступна серія через',
     subscribe_info: 'У розділі «Підписки» ви побачите всі свої підписки на переклади. Ви отримаєте сповіщення, коли вийде нова серія з вибраним перекладом.',
     no_watch_history: 'Немає історії перегляду',
 
@@ -1290,5 +1295,8 @@ export default {
     remote_configuration_waite_text: 'Тепер ви можете передати цей код іншому додатку, щоб надати доступ до налаштувань.',
     remote_configuration_open_button: 'Відкрити доступ',
     remote_configuration_code_life: 'Код дійсний',
-    remote_configuration_notice_nocode: 'Не вдалося відкрити доступ'
+    remote_configuration_notice_nocode: 'Не вдалося відкрити доступ',
+
+    settings_server_gts: 'Перекодування',
+    settings_server_gts_descr: 'Автоматично конвертувати відео у сумісний формат за потреби.'
 }

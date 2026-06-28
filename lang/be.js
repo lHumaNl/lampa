@@ -153,7 +153,7 @@ export default {
     settings_player_type: 'Тып плэера',
     settings_player_type_descr: 'Якім плэерам прайграваць',
     settings_infuse_launch_mode: 'Запуск у Infuse',
-    settings_infuse_launch_mode_descr: 'Што рабіць пры адкрыцці відэа ў Infuse. Торэнт: «Захаваць і гуляць» — толькі ў бібліятэку',
+    settings_infuse_launch_mode_descr: 'Што рабіць пры адкрыцці відэа ў Infuse. Для торэнтаў заўжды адразу прайграванне',
     settings_infuse_launch_ask: 'Пытаць пры запуску',
     settings_infuse_launch_play: 'Гуляць',
     settings_infuse_launch_save_and_play: 'Захаваць і гуляць',
@@ -1269,6 +1269,11 @@ export default {
     player_segments_value_auto: 'Аўтапрапуск',
     player_segments_value_user: 'Карыстальніцкі',
     player_segments_skiped: 'Сегмент прапушчаны',
+    player_segments_skip_now: 'Прапусціць',
+    player_segments_skip_in: 'Прапуск праз',
+    player_segments_skip_intro: 'Прапусціць застаўку',
+    player_segments_next: 'Наступная серыя',
+    player_segments_next_in: 'Наступная серыя праз',
     subscribe_info: 'У раздзеле «Падпіскі» вы ўбачыце ўсе свае падпіскі на пераклады. Вы атрымаеце апавяшчэнне, калі выйдзе новая серыя з выбраным перакладам.',
     no_watch_history: 'Няма гісторыі прагляду',
 
@@ -1329,5 +1334,8 @@ export default {
     remote_configuration_waite_text: 'Цяпер вы можаце перадаць гэты код іншаму прыкладанню, каб даць доступ да налад.',
     remote_configuration_open_button: 'Адкрыць доступ',
     remote_configuration_code_life: 'Код сапраўдны',
-    remote_configuration_notice_nocode: 'Не ўдалося адкрыць доступ'
+    remote_configuration_notice_nocode: 'Не ўдалося адкрыць доступ',
+
+    settings_server_gts: 'Перакадаванне',
+    settings_server_gts_descr: 'Аўтаматычна канвертаваць відэа ў сумяшчальны фармат пры неабходнасці.'
 }
